@@ -1,6 +1,10 @@
 ## Todo App: A Simple Todo Application
 # Todo Summary Assistant
 
+## see the demo here
+
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://todo-project-1-1okv.onrender.com)
+
 ![image](https://github.com/user-attachments/assets/0edc69cf-e8ee-49e3-b84e-950aba5731be)
 
 A full-stack application that helps users manage todos, generate AI-powered summaries, and share them on Slack.

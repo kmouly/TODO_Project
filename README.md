@@ -1,39 +1,47 @@
 ## Todo App: A Simple Todo Application
+# Todo Summary Assistant
 
-### What is Todo App?
+![image](https://github.com/user-attachments/assets/0edc69cf-e8ee-49e3-b84e-950aba5731be)
 
-This is a todo application built with React.js and backend API server written in Node.js. It's a simple, intuitive, and elegant UI for managing your todo list. It comes with a number of great features such as creating, updating or deleting tasks from the list.
-<br/>
-<br/>
-Our app is very simple and straightforward. We have a clean interface that makes it easy to see what's happening, and how you can manage your tasks.
+A full-stack application that helps users manage todos, generate AI-powered summaries, and share them on Slack.
 
-### Features:
+## Features
 
-1.  All of the CRUD operations has been handled properly as the async actions
-2.  An integrated JSON server holds and serves the data under the hood
-3.  Added tasks also saved into the local storage of the client’s browser
+- ✅ Create, edit, and delete todo items
+- 🤖 Generate meaningful summaries using OpenAI
+- 📤 Send summaries directly to Slack
+- 🔄 Real-time updates
+- 🎨 Clean, responsive UI
 
-### How to use this repo?
+## Tech Stack
 
-Download or clone this repo and run the following command in the terminal:
+**Frontend:**
+- React
+- Tailwind CSS
+- Axios
 
-```
-npm install
-or
-npm i
-```
+**Backend:**
+- Node.js
+- Express
+- PostgreSQL (via Supabase)
 
-### View the app (Hosted on Netlify):
+**Integrations:**
+- OpenAI API
+- Slack Webhooks
 
-https://masud-todo-app.netlify.app/
+## Setup
 
-### Necessary Links:
+### Prerequisites
 
-1. API Endpoint: https://capricious-ash-stomach.glitch.me/tasks
-2. API GitHub: https://github.com/masudranashawon/todo-app-server
+- Node.js (v18+)
+- npm or yarn
+- Supabase account
+- OpenAI API key
+- Slack workspace with incoming webhook
 
-### Tools:
+### Installation
 
-React.js, Tailwind CSS
-
-### Thanks for visiting this repo, take care!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/todo-summary-assistant.git
+   cd todo-summary-assistant
